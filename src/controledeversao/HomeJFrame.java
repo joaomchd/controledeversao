@@ -420,7 +420,7 @@ public class HomeJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         JFileChooser chooser1 = new JFileChooser();
         chooser1.setAcceptAllFileFilterUsed(false);
-        FileNameExtensionFilter fnef = new FileNameExtensionFilter("Texto(Plain) ou imagem(PNG)(*.txt, *.php, *.png, *.java, *.html, *.js, *.py, *.c, *.cpp)","php","txt","png","java","html","js","py","c","cpp");
+        FileNameExtensionFilter fnef = new FileNameExtensionFilter("Texto(Plain) ou imagem(PNG)(*.txt, *.php, *.png, *.java, *.html, *.js, *.vue, *.py, *.c, *.cpp)","php","txt","png","java","vue","html","js","py","c","cpp");
         chooser1.setFileFilter(fnef);
         javax.swing.Action details = chooser1.getActionMap().get("viewTypeDetails");
         details.actionPerformed(null);
@@ -438,7 +438,7 @@ public class HomeJFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
         JFileChooser chooser2 = new JFileChooser();
         chooser2.setAcceptAllFileFilterUsed(false);
-        FileNameExtensionFilter fnef = new FileNameExtensionFilter("Texto(Plain) ou imagem(PNG)(*.txt, *.php, *.png, *.java, *.html, *.js, *.py, *.c, *.cpp)","php","txt","png","java","html","js","py","c","cpp");
+        FileNameExtensionFilter fnef = new FileNameExtensionFilter("Texto(Plain) ou imagem(PNG)(*.txt, *.php, *.png, *.java, *.html, *.js, *.vue, *.py, *.c, *.cpp)","php","txt","png","java","vue","html","js","py","c","cpp");
         chooser2.setFileFilter(fnef);
         javax.swing.Action details = chooser2.getActionMap().get("viewTypeDetails");
         details.actionPerformed(null);
